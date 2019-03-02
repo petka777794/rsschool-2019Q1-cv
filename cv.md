@@ -3,10 +3,10 @@
 ## Task "Markdown & Git"
 
 1. Kalodzka Dzmitry
-2. email:
-   > 6677811@gmail.com
-   phone:
-   > +375336677811
+2. * email
+	  * 6677811@gmail.com
+   * phone
+	  * +375336677811
 3. I want to improve my skill in JS. I have 4-year developer experience 
 4. ASP.net MVC, C#, JS, SQL Server, jQuery, AngularJS, Vue, Git, SVN
 5. ```javascript
