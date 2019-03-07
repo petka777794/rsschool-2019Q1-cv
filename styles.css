@@ -1,0 +1,48 @@
+.header__section,
+.header__photo-block {
+    display: flex;
+}
+
+.header__section {
+    justify-content: center;
+    background-color: #c0c0c0;
+}
+.photo-block__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo__img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo__img img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: -177px;
+}
+
+.photo-block__name {
+    font-family: "Maven Pro";
+}
+
+.contact-info__address,
+.contact-info__phone a,
+.contact-info__email a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Maven Pro";
+}
+
+.contact-info__address i,
+.contact-info__phone i,
+.contact-info__email i {
+    color: #fff;
+}
