@@ -1,0 +1,87 @@
+.header__section,
+.header__photo-block {
+    display: flex;
+}
+
+.header__section {
+    justify-content: center;
+    background-color: #c0c0c0;
+}
+.photo-block__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo__img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo__img img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: -177px;
+}
+
+.photo-block__name {
+    font-family: "Maven Pro";
+}
+
+.contact-info__address,
+.contact-info__phone a,
+.contact-info__email a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Maven Pro";
+}
+
+.contact-info__address i,
+.contact-info__phone i,
+.contact-info__email i {
+    color: #fff;
+}
+
+.main-content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.main-content > aside {
+    margin: 25px 0;
+}
+
+.summary__header,
+.program-level__header,
+.examples__header,
+.experience__header,
+.education__header,
+.english-level__header {
+    color: #fff;
+    background-color: #c0c0c0;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Maven Pro";
+    padding: 10px;
+}
+
+.examples__description {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
