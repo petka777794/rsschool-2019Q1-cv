@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML, CSS & Git Basics</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Maven+Pro"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__section">
+        <article class="header__photo-block">
+          <div class="photo-block__photo">
+            <figure class="photo__img">
+              <img src="assets/photo.jpg" alt="me" />
+              <figcaption>Dzmitry Ivanov</figcaption>
+            </figure>
+          </div>
+          <div class="photo-block__contacts">
+            <h1 class="photo-block__name">Dzmitry Ivanov</h1>
+            <div class="photo-block__contact-info">
+              <p class="contact-info__address">
+                <i class="fas fa-map-marker-alt"></i> Elm St. 14/05 Lost City
+              </p>
+              <p class="contact-info__phone">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+35283318635"> + 3528 331 86 35</a>
+              </p>
+              <p class="contact-info__email">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@hexalcorp.com"> dmitry@test.com</a>
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </header>
+    <main>
+      <section class="main-content">
+        <aside class="main-content__summary">
+          <header class="summary__header">Summary</header>
+          <p class="summary__description">I want to improve my skill in JS.</p>
+        </aside>
+        <aside class="main-content__program-level">
+          <header class="program-level__header">Programming Level</header>
+          <p class="program-level__description">
+            I have 4-year developer experience
+          </p>
+        </aside>
+        <aside class="main-content__examples">
+          <header class="examples__header">Examples</header>
+          <pre class="examples__description">
+              let answer = {
+                "H": 0,
+                "Q": 0,
+                "D": 0,
+                "N": 0,
+                "P": 0
+              }
+              if (currency <= 0) return {};
+              if (currency > 10000) return {
+                error: "You are rich, my friend! We don't have so much coins for exchange"
+              };
+          
+              while (currency != 0) {
+                if (currency >= 50) {
+                  answer.H = Math.floor(currency / 50);
+                  currency = currency % 50;
+          
+                } else if (currency >= 25) {
+                  answer.Q = Math.floor(currency / 25);
+                  currency = currency % 25;
+                  
+                } else if (currency >= 10) {
+                  answer.D = Math.floor(currency / 10);
+                  currency = currency % 10;
+                  
+                } else if (currency >= 5) {
+                  answer.N = Math.floor(currency / 5);
+                  currency = currency % 5;
+                  
+                } else {
+                  answer.P = currency / 1;
+                  currency = 0;            
+                }
+              }
+          
+              for (const key in answer) {
+                if (answer.hasOwnProperty(key) && answer[key] === 0) {
+                  delete answer[key];
+                }
+              }
+          </pre>
+        </aside>
+        <aside class="main-content__experience">
+          <header class="experience__header">Experience</header>
+          <p class="experience__description">
+            1.5 year in YumaSoft, 4 years in Aisnovations - .Net developer
+          </p>
+        </aside>
+        <aside class="main-content__education">
+          <header class="education__header">Education</header>
+          <p class="education__description">
+            BSUIR
+          </p>
+        </aside>
+        <aside class="main-content__english-level">
+          <header class="english-level__header">English Level</header>
+          <p class="english-level__description">
+            Intermediate, I worked with an American client many years, and I wrote
+            messages to him every day.
+          </p>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
